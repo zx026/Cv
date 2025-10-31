@@ -2,8 +2,7 @@ aiofiles
 aiohttp
 apscheduler
 asyncio
-bard
-bing_image_downloader 
+bard 
 beautifulsoup4
 bs4
 cloudscraper
