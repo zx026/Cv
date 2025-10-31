@@ -38,7 +38,7 @@ def track_markup(_, videoid, user_id, channel, fplay):
     return buttons
 
 
-def stream_markup(_, chat_id):
+def stream_markup(_, videoid, chat_id):
     buttons = [
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
