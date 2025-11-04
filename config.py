@@ -45,7 +45,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 LOGGER_ID = int(getenv("LOGGER_ID", "-1002022622141"))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", "6657539971"))
+OWNER_ID = int(getenv("OWNER_ID", "6625936112"))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 # config.py
@@ -76,7 +76,7 @@ GIT_TOKEN = getenv(
 # -------------------------------------------------------------------------
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ll_Bot_Promotion_ll")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ll_Bot_Promotion_ll")
-SOURCE = getenv("SOURCE", "https://github.com/BABY-MUSIC/SPOTIFY_MUSIC")
+SOURCE = getenv("SOURCE", "https://")
 CHAT = getenv("CHAT", "https://t.me/ll_Bot_Promotion_ll")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
