@@ -9,10 +9,10 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID", "0"))
-API_HASH = getenv("API_HASH", "0")
+API_ID = int(getenv("API_ID", "16457832"))
+API_HASH = getenv("API_HASH", "3030874d0befdb5d05597deacc3e83ab")
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN", "0")
+BOT_TOKEN = getenv("BOT_TOKEN", "7752788475:AAHG_2JKmPghwnayrxsb_AjziKNlJWFY9lg")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","@ll_Oye_Zayn_ll")
 # --------------------------------------------------------
@@ -42,10 +42,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", "0"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002022622141"))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", "0"))
+OWNER_ID = int(getenv("OWNER_ID", "6625936112"))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 # config.py
@@ -74,10 +74,10 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+gF7M1_0PC803ZjU9")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/YTM_Points")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ll_Bot_Promotion_ll")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ll_Bot_Promotion_ll")
 SOURCE = getenv("SOURCE", "https://github.com/BABY-MUSIC/SPOTIFY_MUSIC")
-CHAT = getenv("CHAT", "https://t.me/+q43QONRtkrg5NGFk")
+CHAT = getenv("CHAT", "https://t.me/ll_Bot_Promotion_ll")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -144,7 +144,7 @@ confirmer = {}
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/xhpqtp.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/tapkqc.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://telegra.ph/file/fd827f9a4fe8eaa3e8bf4.jpg"
