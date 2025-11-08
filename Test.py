@@ -15,9 +15,9 @@ from pyrogram.errors import RPCError
 
 from youtubesearchpython.__future__ import VideosSearch
 
-from pytgcalls import PyTgCalls as TgCalls
+from pytgcalls import PyTgCalls
 
-from ntgcalls.types import AudioStream
+from pytgcalls.types import AudioStream
 
 from PIL import Image, ImageDraw
 
@@ -37,7 +37,7 @@ os.makedirs("downloads", exist_ok=True)
 # ---------------- CLIENTS ----------------
 bot = Client("music-bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 user = Client("music-user", api_id=API_ID, api_hash=API_HASH, session_string=STRING_SESSION)
-vc = TgCalls(user)
+vc = PyTgCalls(user)
 
 mongo = MongoClient(MONGO_URI)
 db = mongo["music_db"]
