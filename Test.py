@@ -3,7 +3,7 @@ from urllib.parse import quote_plus
 from pymongo import MongoClient
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
-from pyrogram.errors import RPCError
+from pyrogram.errors import RPCError, GroupcallForbidden
 from youtubesearchpython.__future__ import VideosSearch
 from pytgcalls import PyTgCalls              # provided by py-tgcalls 2.2.6
 from pytgcalls.types import MediaStream      # correct for this build
