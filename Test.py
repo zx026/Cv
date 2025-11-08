@@ -20,14 +20,15 @@ from ntgcalls.types import AudioStream
 
 from PIL import Image, ImageDraw
 
+
 # ---------------- CONFIG ----------------
 API_ID = int(os.getenv("API_ID", "16457832"))
 API_HASH = os.getenv("API_HASH", "3030874d0befdb5d05597deacc3e83ab")
-STRING_SESSION = os.getenv("STRING_SESSION", "")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
-MONGO_URI = os.getenv("MONGO_URI", "")
-API_BASE = os.getenv("API_BASE", "").rstrip("/") if os.getenv("API_BASE") else ""
-OWNER_ID = int(os.getenv("OWNER_ID", "0"))
+STRING_SESSION = os.getenv("STRING_SESSION", "BQD7IGgAUHl8J-qZ9YLsK-ue7kMhsJGDIUU8FBvVcuWQYTIIvEkxH5a1pRRpXB4gACbbkiHvsn-SsrbgSKTpk7muOJ3kWdLEwWZMNT_z7Kt-PMfZ23UJjSZhU7vBdLRKwmEsYaRgUfu-VsIXrZmBZviHwbEN3J4DgdFZzEZbKTbJyMQhCG_eJRk5pMwecSHkKaloQkXwbZKi6tJUEun4n6J-5x6sPl87FMNLIC0_hC9xQn8zTMBeacCYl6vo1n6TJpLmXtY38M5cOr65aKr14yQwadA2aZif82eL7Bd9m8lwvP4rppjgqhT-dns_ME_wWCSCITIuvFjmkzlOHAog1fuiHsTHfQAAAAGF4OEZAA")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "7062994457:AAHL5LHDdY1MedP2-mtYMT1UEYeDk94Kafg")
+MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://vivek:1234567890@cluster0.c48d8ih.mongodb.net/?retryWrites=true&w=majority")
+API_BASE = os.getenv("API_BASE", "http://46.250.243.52:1470").rstrip("/") if os.getenv("API_BASE") else ""
+OWNER_ID = int(os.getenv("OWNER_ID", "6657539971"))
 DURATION_LIMIT = 7200  # 2 hours
 
 os.makedirs("downloads", exist_ok=True)
