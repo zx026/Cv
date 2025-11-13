@@ -27,7 +27,6 @@ openai==0.28.0
 opencv-python
 psutil
 pickledb
-pornhub-api==0.3.0
 pycountry
 pycryptodome
 pydub
