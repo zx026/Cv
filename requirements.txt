@@ -1,8 +1,7 @@
 aiofiles
 aiohttp
 apscheduler
-asyncio
-bard 
+bard
 beautifulsoup4
 bs4
 cloudscraper
@@ -20,14 +19,14 @@ httpx==0.27.0
 img2pdf
 instaloader
 lexica-api
-motor 
+motor
 MukeshAPI
 numpy<2.0.0
 openai==0.28.0
 opencv-python
 psutil
 pickledb
-pornhub-api==0.3.0
+pornhub-api==0.4.0
 pycountry
 pycryptodome
 pydub
@@ -41,7 +40,7 @@ pyshorteners
 pyttsx3
 pytz
 pytube
-py-tgcalls==0.9.7
+py-tgcalls @ git+https://github.com/AsmSafone/PyTgCalls.git
 pyyaml==6.0.1
 qrcode
 requests
