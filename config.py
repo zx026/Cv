@@ -10,9 +10,9 @@ load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
 API_ID = int(getenv("API_ID", "0"))
-API_HASH = getenv("API_HASH", "0")
+API_HASH = getenv("API_HASH", "3030874d0befdb5d05597deacc3e83ab")
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN", "0")
+BOT_TOKEN = getenv("BOT_TOKEN", "7985004218:AAH8kg8aHfg-_7XFTwHaswRliUBy-pDn6bU")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","@UTTAM470")
 # --------------------------------------------------------
@@ -39,10 +39,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", "0"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-100201488244"))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", "0"))
+OWNER_ID = int(getenv("OWNER_ID", "6657539971"))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 # config.py
@@ -120,7 +120,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("STRING_SESSION", "BQD7IGgAlBua14bpavQqlDQ2FGr9GQ40eyS87xSbCkCcpfA-rsEznNGsCgf3HJbVAIobm2b7nOUmn8tk6ctHbkYK1TEKHxg0INodjBxCjv3vjSOT655jMnGCK60j-y1_hSf4HojzEEJE0LTylHizDxbLq9b50TX_QqIgLzThihNGnOE59Msji7z2QvkxoEk7hVg_FmdDblSPAKZYYpyUDYvBpUPt2oh73ZxuEcbVpkik8QONUtIPhFl5_E_B_zByuIxLGHB2IOaffNm_OAZ-fOsq0Chj_GbrGvdcFrAT3f1haU4dT7NFJjky00Ucs0g2ZosIceZJzPIrq8RXBAa9wyCVrg6LzAAAAAHoy4nOAA")
 BANNED_USERS = filters.user()
 adminlist = {}
 lyrical = {}
