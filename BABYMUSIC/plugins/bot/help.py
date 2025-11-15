@@ -84,7 +84,7 @@ async def help_com_group(client, message: Message, _):
 # handler speed: 50ms total (max possible)
 ############################################################
 @app.on_callback_query(filters.regex("^h:") & ~BANNED_USERS)
-@languageCB
+@LanguageStart
 async def helper_cb(client, query, _):
     try:
         _, key = query.data.split(":")
