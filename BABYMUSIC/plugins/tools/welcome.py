@@ -99,7 +99,7 @@ async def greet_new_member(_, member: ChatMemberUpdated):
         
         # Creating an inline button to "Join 👋" with the link
         keyboard = InlineKeyboardMarkup(
-            [[InlineKeyboardButton("Join 👋", url="https://t.me/+gF7M1_0PC803ZjU9")]]
+            [[InlineKeyboardButton("Join 👋", url="https://t.me/+2af2kZ2e1OwwMDA1")]]
         )
 
         # Send the welcome message with the inline button
